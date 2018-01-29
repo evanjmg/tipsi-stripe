@@ -29,7 +29,7 @@ dependencies {
   compile 'com.android.support:appcompat-v7:26.1.0'
   compile 'com.google.android.gms:play-services-wallet:10.+'
   compile 'com.stripe:stripe-android:6.0.0'
-  compile 'com.github.hannta:CreditCardEntry:1.4.8.9'
+  compile 'com.github.hannta:CreditCardEntry:1.4.8.10'
 }
 
 repositories {
@@ -37,4 +37,5 @@ repositories {
     url 'https://maven.google.com/'
     name 'Google'
   }
+  maven { url "https://jitpack.io" }
 }
